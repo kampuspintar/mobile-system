@@ -25,7 +25,7 @@ export default class Component_Login_Form extends Component{
                         placeholder='password' style={styles.input_form}
                         secureTextEntry={true}/>
                    
-                    <Button block style={styles.button_sign_in}>
+                    <Button block style={styles.button_sign_in} onPress={this.props.onPress}>
                         <Text style={styles.button_sign_in_text}>Mulai</Text>
                     </Button>
 
